@@ -1,0 +1,24 @@
+{
+  "Command": "run",
+  "Type": "DVC-State",
+  "Version": "0.1",
+  "Argv": [
+    "aws",
+    "s3",
+    "mv",
+    "s3://dvc-test/test_data.txt",
+    "data",
+    "--profile",
+    "dvc_test"
+  ],
+  "Cwd": ".",
+  "CreatedAt": "2017-07-13 10:00:08 -0400",
+  "InputFiles": [],
+  "OutputFiles": [
+    "data/test_data.txt"
+  ],
+  "CodeDependencies": [],
+  "Stdout": null,
+  "Stderr": null,
+  "Shell": false
+}
